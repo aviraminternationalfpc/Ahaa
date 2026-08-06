@@ -1,0 +1,142 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h1{
+    font-size: 47px;
+    width: 1000px;
+    font-style: bold;
+    margin: 0px;
+
+}
+h2{
+    font-size: 37px;
+    font-style: bold;
+    margin: 0px;
+}
+p{
+    font-size: 24px;
+   text-align: center;
+}
+
+.section{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.poster{
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.box1{
+    width: 380px;
+    height: 200px;
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.button1{
+    background-color: black;
+    color: aliceblue;
+    width: 108px;
+    height: 36px;
+    border-radius: 8px;
+ 
+}
+.box2{
+    width: 1000px;
+    height: 150px;
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.icon{
+    height: 80px;
+    width: 80px;
+}
+
+
+
+@media screen and (max-width: 450px) {
+    .section{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 0%;
+    }
+
+    h1{
+        font-size: 18px;
+        width: 60%;
+        font-style: bold;
+        margin: 0px;
+        
+    
+    }
+
+    p{
+        font-size: 13px;
+       text-align: center;
+    }
+    
+
+    .poster{
+        margin-top: 10px;
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+    }
+    
+    .box1{
+        width: 80%;
+        height: auto;
+        margin-top: -20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .button1{
+        background-color: black;
+        color: aliceblue;
+        width: 108px;
+        height: 36px;
+        border-radius: 8px;
+     
+    }
+    .box2{
+        margin-top: 50px;
+        width: 250px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 20px;
+    
+    }
+    
+    .icon{
+        height: 50px;
+        width: 50px;
+    }
+}  
